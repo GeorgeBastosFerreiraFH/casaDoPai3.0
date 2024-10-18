@@ -1,116 +1,7 @@
-<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos personalizados */
-.hidden {
-    display: none;
-}
-
-.card {
-    margin-bottom: 2rem;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-#forcaSenha {
-    margin-top: 0.5rem;
-}
-
-#forcaSenhaTexto {
-    font-size: 0.8rem;
-    margin-top: 0.25rem;
-}
-
-/* Estilos para o modo escuro */
-[data-theme="dark"] {
-    --background-color: #1f2937;
-    --text-color: #f3f4f6;
-}
-
-[data-theme="dark"] body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-
-/* Estilos para os cards de usuário no dashboard */
-.user-card {
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.user-card:hover {
-    transform: translateY(0);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
-
-.user-card-expanded {
-    max-height: none;
-    overflow: visible;
-}
-
-/* Animações */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes slideIn {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-}
-
-.fade-in {
-    animation: fadeIn 0.5s ease-in-out;
-}
-
-.slide-in {
-    animation: slideIn 0.5s ease-in-out;
-}
-
-/* Efeito de transição entre páginas */
-.flip-card {
-    perspective: 1000px;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-}
-
-.flip-card.flipped {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-
-    visibility: hidden;
-}
-
-.flip-card-back {
-    transform: rotateY(180deg);
-}
-
-/* Animações para inputs e botões */
-
-.input, .btn {
-    transition: all 0.3s ease;
-}
-
-.input:focus, .btn:hover {
-    transform: scale(1.05);
-}
-
-/* Animação para o toggle de modo escuro */
-#btnToggleDarkMode {
-    transition: transform 0.3s ease;
-}
-
-#btnToggleDarkMode:hover {
-    transform: rotate(180deg);
-}
-
-=======
 /* Estilos personalizados */
 .hidden {
     display: none;
@@ -217,4 +108,4 @@
 #btnToggleDarkMode:hover {
     transform: rotate(180deg);
 }
->>>>>>> 6440a9640cb738cf3f0113600e48ed95be8e2297
+
